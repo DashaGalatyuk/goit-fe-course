@@ -1,14 +1,17 @@
 
 a{
   text-decoration:none;
-  font-size: 14;
+  font-size:14px;
+  font-family:Playfair Display;
+}
+a:hover{
+  color: blue;
 }
 .menu{
   display:inline-block;
   color:black;
-  font-size: 14px;
   margin-top:75px;
-  margin-left: 319px;
+  margin-left:319px;
 }
 .second{
   padding-left: 132px;
@@ -26,37 +29,45 @@ a{
   margin-left:150px;
   margin-right:61px;
   margin-top:103px;
+  font-family:Playfair Display;
 }
 h2{
-  font-size: 30px;
+  display:block;
+  font-size:30px;
   color:#626262;
+  margin-top:31px;
+  font-family:Playfair Display;
 }
 .grupe{
   text-decoration:none;
   color:#b4ad9e;
   font-size:15px;
-  margin-top:31px;
+  margin-top:0px;
+  font-family:Playfair Display;
 }
 p{
   color:#626262;
   font-size: 14px;
+  font-family:Playfair Display;
 }
 article{
-  display: inline-block;
-  height:100px;
-  width:400px;
-}
-li{
-  display:inline-block;
+  display:block;
+  height:522px;
+  width:470px;
 }
 button{
+  display:block;
+  margin:auto;
   color:#626262;
   font-size: 20px;
   border: 1px solid #626262;
   background-color:white;
   height:60px;
   width:164px;
-  
+  font-family:Playfair Display;
+}
+li{
+  display: inline-block;
 }
 .menu{
   font-size:14px;
