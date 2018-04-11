@@ -1,14 +1,40 @@
-
+body{
+  font-family:Playfair Display;
+}
 a{
   text-decoration:none;
   font-size: 14;
 }
-.menu{
+p{
+  font-size: 14px;
+  color:#626262;
+  margin:0px;
+  padding:0px;
+}
+h2{
+  font-size: 30px;
+  color:#626262;
+}
+div>p{
+    margin-top:31px;
+}
+li{
+  display: inline-block;
+  margin:0 auto;
+  padding:0 auto;
+}
+
+
+
+/*Начало МЕНЮ*/
+
+.menu>li{
   display:inline-block;
   color:black;
-  font-size: 14px;
   margin-top:75px;
-  margin-left: 319px;
+}
+.first{
+  margin-left: 300px;
 }
 .second{
   padding-left: 132px;
@@ -19,17 +45,24 @@ a{
 }
 .fourth{
   padding-left: 101px;
+
 }
-.option{
-  height:500px;
-  width:400px;
-  margin-left:150px;
-  margin-right:61px;
-  margin-top:103px;
+
+/*Заканчиваться МЕНЮ*/
+
+
+
+/*Начало блока*/
+.wrapper{
+  width:961px ;
+  margin:0px 120px 0px 120px;
+  padding: 103px 30px 30px 30px;
+
 }
-h2{
-  font-size: 30px;
-  color:#626262;
+.option>article{
+  margin-left:0px;
+  padding-right:0px;
+  width: 415px;
 }
 .grupe{
   text-decoration:none;
@@ -37,19 +70,14 @@ h2{
   font-size:15px;
   margin-top:31px;
 }
-p{
-  color:#626262;
-  font-size: 14px;
+.one{
+  width:430px;
+  margin-right:61px;
 }
-article{
-  display: inline-block;
-  height:100px;
-  width:400px;
-}
-li{
-  display:inline-block;
-}
+/*Конец блока*/
 button{
+  display: block;
+  margin:0 auto;
   color:#626262;
   font-size: 20px;
   border: 1px solid #626262;
@@ -58,9 +86,8 @@ button{
   width:164px;
   
 }
-.menu{
-  font-size:14px;
-  margin-top:75px;
-  color:green;
-  text-decoration:none;
-}
+/*Начало кнопки*/
+
+
+
+/*Конец кнопки*/
