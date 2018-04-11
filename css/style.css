@@ -1,4 +1,6 @@
-
+body{
+  font-family:Playfair Display;
+}
 a{
   text-decoration:none;
   font-size:14px;
@@ -7,11 +9,40 @@ a{
 a:hover{
   color: blue;
 }
-.menu{
+p{
+  font-size: 14px;
+  color:#626262;
+  margin:0px;
+  padding:0px;
+}
+h2{
+  font-size: 30px;
+  color:#626262;
+}
+div>p{
+    margin-top:31px;
+}
+li{
+  display: inline-block;
+  margin:0 auto;
+  padding:0 auto;
+}
+
+
+
+/*Начало МЕНЮ*/
+
+.menu>li{
   display:inline-block;
   color:black;
   margin-top:75px;
+<<<<<<< HEAD
   margin-left:319px;
+=======
+}
+.first{
+  margin-left: 300px;
+>>>>>>> fc643e56ad3a1e482b73f7aa8cc5025cd85aa0b2
 }
 .second{
   padding-left: 132px;
@@ -22,7 +53,9 @@ a:hover{
 }
 .fourth{
   padding-left: 101px;
+
 }
+<<<<<<< HEAD
 .option{
   height:500px;
   width:400px;
@@ -37,6 +70,24 @@ h2{
   color:#626262;
   margin-top:31px;
   font-family:Playfair Display;
+=======
+
+/*Заканчиваться МЕНЮ*/
+
+
+
+/*Начало блока*/
+.wrapper{
+  width:961px ;
+  margin:0px 120px 0px 120px;
+  padding: 103px 30px 30px 30px;
+
+}
+.option>article{
+  margin-left:0px;
+  padding-right:0px;
+  width: 415px;
+>>>>>>> fc643e56ad3a1e482b73f7aa8cc5025cd85aa0b2
 }
 .grupe{
   text-decoration:none;
@@ -45,6 +96,7 @@ h2{
   margin-top:0px;
   font-family:Playfair Display;
 }
+<<<<<<< HEAD
 p{
   color:#626262;
   font-size: 14px;
@@ -54,10 +106,24 @@ article{
   display:block;
   height:522px;
   width:470px;
+=======
+.one{
+  width:430px;
+  margin-right:61px;
+>>>>>>> fc643e56ad3a1e482b73f7aa8cc5025cd85aa0b2
 }
+/*Конец блока*/
+
+
+/*Начало кнопки*/
 button{
+<<<<<<< HEAD
   display:block;
   margin:auto;
+=======
+  display: block;
+  margin:0 auto;
+>>>>>>> fc643e56ad3a1e482b73f7aa8cc5025cd85aa0b2
   color:#626262;
   font-size: 20px;
   border: 1px solid #626262;
@@ -69,9 +135,5 @@ button{
 li{
   display: inline-block;
 }
-.menu{
-  font-size:14px;
-  margin-top:75px;
-  color:green;
-  text-decoration:none;
-}
+
+/*Конец кнопки*/
