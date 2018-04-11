@@ -75,6 +75,9 @@ li{
   margin-right:61px;
 }
 /*Конец блока*/
+
+
+/*Начало кнопки*/
 button{
   display: block;
   margin:0 auto;
@@ -86,8 +89,5 @@ button{
   width:164px;
   
 }
-/*Начало кнопки*/
-
-
 
 /*Конец кнопки*/
