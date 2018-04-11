@@ -3,11 +3,11 @@ body{
 }
 a{
   text-decoration:none;
+  color:#626262;
   font-size:14px;
-  font-family:Playfair Display;
 }
 a:hover{
-  color: blue;
+  color:blue;
 }
 p{
   font-size: 14px;
@@ -36,13 +36,10 @@ li{
   display:inline-block;
   color:black;
   margin-top:75px;
-<<<<<<< HEAD
-  margin-left:319px;
-=======
+
 }
 .first{
   margin-left: 300px;
->>>>>>> fc643e56ad3a1e482b73f7aa8cc5025cd85aa0b2
 }
 .second{
   padding-left: 132px;
@@ -55,23 +52,6 @@ li{
   padding-left: 101px;
 
 }
-<<<<<<< HEAD
-.option{
-  height:500px;
-  width:400px;
-  margin-left:150px;
-  margin-right:61px;
-  margin-top:103px;
-  font-family:Playfair Display;
-}
-h2{
-  display:block;
-  font-size:30px;
-  color:#626262;
-  margin-top:31px;
-  font-family:Playfair Display;
-=======
-
 /*Заканчиваться МЕНЮ*/
 
 
@@ -87,7 +67,6 @@ h2{
   margin-left:0px;
   padding-right:0px;
   width: 415px;
->>>>>>> fc643e56ad3a1e482b73f7aa8cc5025cd85aa0b2
 }
 .grupe{
   text-decoration:none;
@@ -96,7 +75,6 @@ h2{
   margin-top:0px;
   font-family:Playfair Display;
 }
-<<<<<<< HEAD
 p{
   color:#626262;
   font-size: 14px;
@@ -106,34 +84,27 @@ article{
   display:block;
   height:522px;
   width:470px;
-=======
+}
 .one{
   width:430px;
   margin-right:61px;
->>>>>>> fc643e56ad3a1e482b73f7aa8cc5025cd85aa0b2
 }
 /*Конец блока*/
 
 
 /*Начало кнопки*/
 button{
-<<<<<<< HEAD
   display:block;
   margin:auto;
-=======
   display: block;
   margin:0 auto;
->>>>>>> fc643e56ad3a1e482b73f7aa8cc5025cd85aa0b2
   color:#626262;
   font-size: 20px;
   border: 1px solid #626262;
   background-color:white;
   height:60px;
   width:164px;
-  font-family:Playfair Display;
 }
-li{
-  display: inline-block;
-}
+
 
 /*Конец кнопки*/
