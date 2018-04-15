@@ -13,7 +13,7 @@ a{
   font-size:14px;
 }
 a:hover{
-  color:blue;
+  color:#68cbf8;
 }
 p{
   font-size: 14px;
@@ -85,7 +85,11 @@ article{
   color:#626262;
 }
 article>img{
-  margin-bottom: 32px;
+  margin-bottom: 22px;
+}
+article>a{
+  font-size:11px
+  margin-bottom: 30px;
 }
 /*Конец блока*/
 
