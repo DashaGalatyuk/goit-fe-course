@@ -3,15 +3,21 @@ body{
   margin: 0px;
 
 }
+a{
+  text-decoration:none;
+  color:#626262;
+  font-size:14px;
+}
 main{
   margin-bottom: 54px;
 }
 
-a{
+article>a{
   text-decoration:none;
   color:#b4ad9e;
   font-size:14px;
 }
+
 a:hover{
   color:#68cbf8;
 }
@@ -39,9 +45,9 @@ li{
 
 .menu{
   margin-left:130px;
-
-
 }
+
+
 .second{
   padding-left:132px;
 
@@ -72,7 +78,7 @@ p{
 
 article{
   width:415px;
-  margin:82px 0px 30px;
+  margin:82px 0px 49px;
 }
 
 
@@ -88,6 +94,9 @@ article>img{
 }
 article>a{
   margin-bottom: 30px;
+}
+.menu>li{
+  color:#626262;
 }
 /*Конец блока*/
 
@@ -107,6 +116,7 @@ article>a{
   background-color:white;
   height:60px;
   width:164px;
+  margin-bottom: 92px;
 }
 
 
