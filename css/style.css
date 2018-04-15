@@ -1,5 +1,5 @@
 body{
-  font-family:Playfair Display;
+  font-family:MyriadProRegular;
   margin: 0px;
 
 }
@@ -58,13 +58,11 @@ li{
 /*Начало блока*/
 .wrapper{
   display: block;
-  margin:75px auto 0px;
+  margin:73px auto 0px;
   width:980px ;
 
 }
-.Top{
-  margin-top:103px;
-}
+
 p{
   color:#626262;
   font-size: 14px;
@@ -73,22 +71,21 @@ p{
 
 article{
   width:415px;
-  margin:103px 0px 30px;
+  margin:82px 0px 30px;
 }
 
 
 .one{
-  padding-right: 63px;
+  padding-right: 61px;
 }
 .fest{
   font-size: 30px;
   color:#626262;
 }
 article>img{
-  margin-bottom: 22px;
+  margin-bottom: 24px;
 }
 article>a{
-  font-size:11px
   margin-bottom: 30px;
 }
 /*Конец блока*/
