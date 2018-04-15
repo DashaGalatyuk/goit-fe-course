@@ -3,6 +3,10 @@ body{
   margin: 0px;
 
 }
+main{
+  margin-bottom: 54px;
+}
+
 a{
   text-decoration:none;
   color:#626262;
@@ -17,10 +21,7 @@ p{
   margin:0px;
   padding:0px;
 }
-h2{
-  font-size: 30px;
-  color:#626262;
-}
+
 div>p{
     margin-top:31px;
 }
@@ -58,24 +59,11 @@ li{
 .wrapper{
   display: block;
   margin:75px auto 0px;
-  width:971px ;
+  width:980px ;
 
 }
-/*.option>article{
-  margin-left:0px;
-  padding-right:0px;
-  width: 415px;
-}
-.grupe{
-  text-decoration:none;
-  color:#b4ad9e;
-  font-size:15px;
-  margin-top:0px;
-  font-family:Playfair Display;
-}
-
-*/
-
+.Top{
+  margin-top:103px;
 }
 p{
   color:#626262;
@@ -84,24 +72,33 @@ p{
 }
 
 article{
-  width:460px;
+  width:415px;
   margin:103px 0px 30px;
 }
 
-/*
+
 .one{
-  width:430px;
-  margin-right:61px;
+  padding-right: 63px;
+}
+.fest{
+  font-size: 30px;
+  color:#626262;
+}
+article>img{
+  margin-bottom: 32px;
 }
 /*Конец блока*/
 
 
 /*Начало кнопки*/
-button{
-  display:block;
-  margin:auto;
+.grupe{
+  padding-top:31px
+}
+
+.load{
   display: block;
   margin:0 auto;
+  display:block;
   color:#626262;
   font-size: 20px;
   border: 1px solid #626262;
