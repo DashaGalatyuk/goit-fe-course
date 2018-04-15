@@ -84,18 +84,22 @@ article{
 
 
 .one{
-  padding-right: 61px;
+  padding-right: 56px;
 }
 .fest{
+  display: block;
   font-size: 30px;
   color:#626262;
+  margin-bottom:30px;
 }
 article>img{
-  margin-bottom: 24px;
+  margin-bottom:26px;
 }
 article>a{
-  margin-bottom: 30px;
+  display: block;
+  margin-bottom: 19px;
 }
+
 .menu>li{
   color:#626262;
 }
@@ -103,10 +107,6 @@ article>a{
 
 
 /*Начало кнопки*/
-.grupe{
-  padding-top:31px
-}
-
 .load{
   display: block;
   margin:0 auto;
@@ -117,7 +117,7 @@ article>a{
   background-color:white;
   height:60px;
   width:164px;
-  margin-bottom: 92px;
+  margin-bottom:70px;
 }
 
 
