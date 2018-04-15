@@ -9,7 +9,7 @@ main{
 
 a{
   text-decoration:none;
-  color:#626262;
+  color:#b4ad9e;
   font-size:14px;
 }
 a:hover{
@@ -30,7 +30,9 @@ li{
   margin:0 auto;
   padding:0 auto;
 }
-
+.fest{
+  font-size: 30px;
+}
 
 
 /*Начало МЕНЮ*/
@@ -66,7 +68,6 @@ li{
 p{
   color:#626262;
   font-size: 14px;
-  font-family:Playfair Display;
 }
 
 article{
