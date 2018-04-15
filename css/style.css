@@ -1,3 +1,4 @@
+
 body{
   font-family:MyriadProRegular;
   margin: 0px;
@@ -43,19 +44,19 @@ li{
 
 /*Начало МЕНЮ*/
 
-.menu{
+nav{
   margin-left:130px;
 }
 
 
-.second{
+.menu>.menu-PHOTODIARY{
   padding-left:132px;
 
 }
-.third{
+.menu>.menu-MUSIC{
   padding-left:111px;
 }
-.fourth{
+.menu>.menu-TRAVEL{
   padding-left:101px;
 
 }
@@ -77,7 +78,7 @@ p{
 }
 
 article{
-  width:415px;
+  width:420px;
   margin:82px 0px 49px;
 }
 
