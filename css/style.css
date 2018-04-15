@@ -1,5 +1,7 @@
 body{
   font-family:Playfair Display;
+  margin: 0px;
+
 }
 a{
   text-decoration:none;
@@ -32,24 +34,20 @@ li{
 
 /*Начало МЕНЮ*/
 
-.menu>li{
-  display:inline-block;
-  color:black;
-  margin-top:75px;
+.menu{
+  margin-left:130px;
+
 
 }
-.first{
-  margin-left: 300px;
-}
 .second{
-  padding-left: 132px;
+  padding-left:132px;
 
 }
 .third{
-  padding-left:  111px;
+  padding-left:111px;
 }
 .fourth{
-  padding-left: 101px;
+  padding-left:101px;
 
 }
 /*Заканчиваться МЕНЮ*/
@@ -58,12 +56,12 @@ li{
 
 /*Начало блока*/
 .wrapper{
-  width:961px ;
-  margin:0px 120px 0px 120px;
-  padding: 103px 30px 30px 30px;
+  display: block;
+  margin:75px auto 0px;
+  width:971px ;
 
 }
-.option>article{
+/*.option>article{
   margin-left:0px;
   padding-right:0px;
   width: 415px;
@@ -75,16 +73,22 @@ li{
   margin-top:0px;
   font-family:Playfair Display;
 }
+
+*/
+
+}
 p{
   color:#626262;
   font-size: 14px;
   font-family:Playfair Display;
 }
+
 article{
-  display:block;
-  height:522px;
-  width:470px;
+  width:460px;
+  margin:103px 0px 30px;
 }
+
+/*
 .one{
   width:430px;
   margin-right:61px;
