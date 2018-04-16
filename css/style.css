@@ -1,4 +1,6 @@
-
+*{
+  border: 1px dashed red;
+}
 body{
   font-family:MyriadProRegular;
   margin: 0px;
@@ -9,14 +11,13 @@ a{
   color:#626262;
   font-size:14px;
 }
-main{
-  margin-bottom: 54px;
-}
+
 
 article>a{
-  text-decoration:none;
-  color:#b4ad9e;
-  font-size:14px;
+  color: #b4ad9e;
+  font-family: Ubuntu;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 
 a:hover{
@@ -44,9 +45,7 @@ li{
 
 /*Начало МЕНЮ*/
 
-nav{
-  margin-left:130px;
-}
+
 
 
 .menu>.menu-PHOTODIARY{
@@ -67,8 +66,8 @@ nav{
 /*Начало блока*/
 .wrapper{
   display: block;
-  margin:73px auto 0px;
-  width:980px ;
+  margin:0 auto;
+  width:1044px ;
 
 }
 
@@ -79,13 +78,10 @@ p{
 
 article{
   width:420px;
-  margin:82px 0px 49px;
+  margin:82px 28px 49px;
 }
 
 
-.one{
-  padding-right: 56px;
-}
 .fest{
   display: block;
   font-size: 30px;
