@@ -7,14 +7,16 @@ a{
   text-decoration:none;
   color:#626262;
   font-size:14px;
+  text-transform: uppercase;
 }
 
-
+ul>.menu{
+  text-transform: uppercase;
+}
 article>a{
   color: #b4ad9e;
   font-family: Ubuntu;
   font-size: 14px;
-  text-transform: uppercase;
 }
 
 a:hover{
@@ -113,7 +115,7 @@ article>a{
   background-color:white;
   height:60px;
   width:164px;
-  margin-top:50px;
+  margin-top:-16px;
   margin-bottom:70px;
 }
 
