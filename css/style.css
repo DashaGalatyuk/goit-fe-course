@@ -68,7 +68,10 @@ li{
   width:1044px ;
 
 }
-
+nav{
+  margin-top:73px;
+  margin-left:165px;
+}
 p{
   color:#626262;
   font-size: 14px;
@@ -87,11 +90,11 @@ article{
   margin-bottom:30px;
 }
 article>img{
-  margin-bottom:26px;
+  margin-bottom:25px;
 }
 article>a{
   display: block;
-  margin-bottom: 19px;
+  margin-bottom: 20px;
 }
 
 .menu>li{
@@ -111,7 +114,7 @@ article>a{
   background-color:white;
   height:60px;
   width:164px;
-  margin-top:-50px;
+  margin-top:50px;
   margin-bottom:70px;
 }
 
