@@ -1,21 +1,26 @@
 body{
-  font-family:Playfair Display;
-  margin: 0px;
-
+  margin:0 auto;
+  padding:0 auto;
 }
 a{
+  text-transform:uppercase;
   text-decoration:none;
-  color:#626262;
   font-size:14px;
+  color: #626262;
 }
+article>a{
+    font-family:Playfair Display, sans-serif;
+    color:#c8c3b9;
+}
+
 a:hover{
   color:blue;
+
 }
 p{
   font-size: 14px;
   color:#626262;
-  margin:0px;
-  padding:0px;
+
 }
 h2{
   font-size: 30px;
@@ -26,11 +31,11 @@ div>p{
 }
 li{
   display: inline-block;
-  margin:0 auto;
-  padding:0 auto;
+
 }
-
-
+img{
+  padding-bottom: 15px;
+}
 
 /*Начало МЕНЮ*/
 
@@ -39,14 +44,14 @@ li{
 
 
 }
-.second{
+.nav_photodiary{
   padding-left:132px;
 
 }
-.third{
+.nav_music{
   padding-left:111px;
 }
-.fourth{
+.nav_travel{
   padding-left:101px;
 
 }
@@ -57,42 +62,17 @@ li{
 /*Начало блока*/
 .wrapper{
   display: block;
-  margin:75px auto 0px;
+  margin:75px auto 60px;
   width:971px ;
 
 }
-/*.option>article{
-  margin-left:0px;
-  padding-right:0px;
-  width: 415px;
-}
-.grupe{
-  text-decoration:none;
-  color:#b4ad9e;
-  font-size:15px;
-  margin-top:0px;
-  font-family:Playfair Display;
-}
 
-*/
-
-}
-p{
-  color:#626262;
-  font-size: 14px;
-  font-family:Playfair Display;
-}
 
 article{
   width:460px;
   margin:103px 0px 30px;
 }
 
-/*
-.one{
-  width:430px;
-  margin-right:61px;
-}
 /*Конец блока*/
 
 
