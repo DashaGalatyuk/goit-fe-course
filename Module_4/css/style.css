@@ -1,26 +1,56 @@
-@import url(http://uk.allfont.net/allfont.css?fonts=roboto-black);
 
-nav{
-	padding-right: 274px; 
+*{
+	outline:  1px solid #000;
 }
-
-.headline{
-	font-size: 48px;
-	font-weight: 400;
-	font-family: 'Roboto Black', Regular;
-	text-transform: uppercase;
-	color:#515151;
-}
-li{
-	display: inline-block;
+body{
+  margin:0 auto;
+  padding:0 auto;
 }
 .wrapper{
-  display: block;
-  margin:43px auto 0px;
-  width:1647px;
-
-
+  margin: 0px 261px 0px;
+  width:1110px;
 }
-.line{
-	margin-top: 29px;
+
+li{
+  display: inline-block;
+}
+a{
+	text-decoration: none;
+}
+
+/*Header*/
+nav{
+	padding: 36px 0px 0px;
+}
+h1{
+	display:inline-block;
+	font-family:Regular;
+	font-size: 30px;
+	line-height: 32px;
+	font-weight: 300;
+	color:#555252;
+	text-transform: uppercase;
+	margin: 0 auto; 
+}
+h1::first-letter{
+	color:#1abc9c;
+	font-weight:400;
+	text-transform: uppercase; 
+}
+ul{
+	float: right;
+}
+
+/*---Menu---*/
+
+/*Featured product*/
+h2{
+	text-align:center; 
+}
+h2::after{}
+
+.headline{
+	font-family: Roboto - Black;
+	font-size:48px;
+	color:#515151;
 }
