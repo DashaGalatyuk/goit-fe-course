@@ -1,0 +1,274 @@
+/* --Базовые настройки--*/
+body{
+  margin:0 auto;
+  padding:0 auto;
+}
+div{
+	display: inline-block;
+}
+.head-container{
+  display: block;
+  margin:0% 6% 27.5px;
+  min-width:600px; 
+  max-width:1160px;
+
+}
+ul{
+	margin: 0 auto;
+}
+li{
+	display: inline-block;
+	justify-content: center;
+}
+a{
+  font-family:Open Sans;
+  font-weight:700;
+  font-size:14px;
+  color:#0f0101;
+  margin-left:20px;
+  text-decoration: none;
+}
+a:hover{
+	color:#1abc9c; 
+}
+
+
+/*--Header--*/
+
+
+.head-container{
+	  display: block;
+  	  margin:27.5px 6% 27.5px;
+      min-width:600px; 
+      max-width:1141px;
+}
+.navigation{
+	margin: 0 auto;
+	float: right;
+}
+h1{
+	display:inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	line-height: 32px;
+	font-weight: 300;
+	color:#555252;
+	text-transform: uppercase;
+	margin: 0 auto; 
+	letter-spacing: -0.6px;
+}
+h1::first-letter{
+	font-family: 'Roboto - Black', sans-serif;
+	color:#1abc9c;
+	font-weight:800;
+	
+}
+li a{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 900;
+	color:#0f0101;
+	text-transform: uppercase;
+
+
+}
+
+
+/*---Main---*/
+
+
+main{
+	margin: 0 auto;
+	padding: 0px;
+}
+
+/*--Section 1 - Slider--*/
+
+.slider{
+	display: block;
+  	width: 100%;
+	position: relative;
+	margin-bottom: 94px;
+}
+.slides-image{
+	width: 100%;
+	height:auto;
+	object-fit:cover;
+
+}
+button{
+	border: none;
+}
+.slider-ctrl{
+	position: absolute;
+	display: inline-block;
+	width:104px; 
+	height:104px;
+	background-color: #4ec6ab;
+}
+.slider-ctrl:hover{
+	opacity: 0.65; 
+}
+.slider-ctrl-prev{
+	left:245px;
+	top:50%;
+	transform: translateY(-50%);
+}
+.slider-ctrl-next{
+	right: 244px;
+	top:50%;
+	transform: translateY(-50%);
+}
+.slides{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.slides-item{
+
+}
+.slides-descr{
+	position: absolute;
+	right:41%;
+	top:43%;
+	transform: translate(-50% -50%); 
+	text-transform:uppercase;
+	color: #fff;
+	font-family: Roboto;
+	font-size: 24px;
+	font-weight: 300;
+}
+h2{
+	position: absolute;
+	right:30%;
+	top:26%;
+	transform: translate(-50% -50%);
+	color: #fff;
+	font-family: Roboto;
+	font-size: 50px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 80px;
+}
+/*--Section 2 - New Collection--*/
+h3{
+	font-family: 'Roboto', sans-serif;
+	font-size: 48px;
+	font-weight:600;
+	color: #515151;
+	text-align:center;
+	text-transform: uppercase;
+	position: relative;
+	padding-bottom:25px;
+	margin-bottom: 80px;
+}
+h3::after{
+		content: " ";
+		display: block;
+		position: absolute;
+		width:166px;
+		height:9px;
+		left:50%;
+		bottom: 0px;
+		background-color:#1abc9c;
+		transform: translateX(-50%);
+}
+
+/*-- Cards --*/
+.gallery-container{
+  display: block;
+  margin:0% 12% 0%;
+  min-width:600px; 
+  max-width:1160px;
+  margin-bottom: 100px;
+}
+.gallery{
+	position: relative;
+	height: 322px;
+	width:255px;
+	margin-right:26px;
+}
+.gallery:nth-child(4){
+	margin-right:0px;
+}
+
+.gallery img{
+	display: block;
+	height: 322px;
+	width:255px;
+	margin: 0px;
+	object-fit: cover;
+	
+}
+.gallery-wrapper{
+	width:1111px;
+}
+
+.info-wrapper{
+	position: absolute;
+	bottom:0;
+	padding: 0px;
+	margin-top: -5px;
+	height: 42px;
+	width: 257px;
+	background-color: #8c8c8c;
+}
+.gallery p{
+
+	width:78%;
+	display: inline-block;
+	background-color: #323232;
+	margin:0 auto;
+	padding-left:15px;
+	padding-top: 5px;
+	padding-bottom:5px;
+	color: #ffffff;
+	font-family:  'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 32px;
+	text-transform: uppercase;
+	letter-spacing: -0.36px;
+}
+.gallery p:hover{
+	background-color:#1abc9c;
+}
+span{
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	margin: 0 auto;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+.info-wrapper:hover{
+	background-color: #7fd9c7;
+}
+
+/*-- Footer --*/
+
+
+.footer_container{
+	width: 100%;
+	height: 88px;
+	background-color: #323232;
+	text-align:center;
+	position: relative;
+}
+.footer_container p{
+	font-family: "Open Sans";
+	font-size: 16px;
+    font-weight: 400;
+	display: inline-block;
+	color:#fefefe;
+}
+.footer_container a{
+	color:#46bfa9;
+}
+.footer_container_wrapper{
+	position: absolute;
+	right:36%;
+	bottom: 20%;
+
+}
