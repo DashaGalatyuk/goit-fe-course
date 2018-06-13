@@ -5,10 +5,9 @@ body{
 }
 .wrapper{
   display: block;
-  margin:0% 6% 0%;
   min-width:600px; 
   max-width:1160px;
-
+  margin: 0 auto;
 }
 ul{
 	margin: 0 auto;
@@ -32,7 +31,7 @@ a:hover{
 /*Header*/
 
 nav{
-	padding: 36px 0px 0px;
+	padding-top: 36px;
 }
 .navigation{
 	margin: 0 auto;
@@ -102,7 +101,6 @@ div{
 	display: inline-block;
 }
 .featured_section img{
-	height: 283px;
 	width:257px;
 	margin: 0px;
 	object-fit: cover;
@@ -180,7 +178,6 @@ span{
 }
 
 .article img{
-    height:262px;
     width :352px;
     object-fit: cover;
     margin: 0 auto;
