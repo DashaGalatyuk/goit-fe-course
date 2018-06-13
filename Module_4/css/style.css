@@ -62,9 +62,6 @@ li a{
 
 
 }
-li a::hover{
-	color: #1abc9c;
-}
 menu{
 	margin: 0 auto;
 	padding: 0px;
@@ -146,6 +143,9 @@ div{
 	text-transform: uppercase;
 	letter-spacing: -0.36px;
 }
+.gallery p:hover{
+	background-color:#1abc9c;
+}
 span{
 	color: #ffffff;
 	font-family: 'Roboto', sans-serif;
@@ -154,6 +154,9 @@ span{
 	margin: 0 auto;
 	margin-right: 2px;
 	margin-left: 2px;
+}
+.info-wrapper:hover{
+	background-color: #7fd9c7;
 }
 .gallery-wrapper div:nth-of-type(4n){
 	margin-right:0px;
@@ -224,3 +227,4 @@ h3::after{
 
 
 }
+
