@@ -5,8 +5,10 @@ body{
 }
 .wrapper{
   display: block;
-  margin: 0 auto;
-  width:1160px;
+  margin:0% 6% 0%;
+  min-width:600px; 
+  max-width:1160px;
+
 }
 ul{
 	margin: 0 auto;
@@ -114,8 +116,10 @@ div{
 }
 
 .gallery{
-	height: 324px;
-	width:257px;
+	max-height: 324px;
+	min-height: 260px;
+	max-width:257px;
+	min-width:193px;
 	margin-right:28px;
 	margin-bottom: 28px;
 }
@@ -124,7 +128,7 @@ div{
 	margin-top: -5px;
 	height: 42px;
 	width: 257px;
-	background-color: #8c8c8c;;
+	background-color: #8c8c8c;
 }
 .gallery p{
 
@@ -227,4 +231,3 @@ h3::after{
 
 
 }
-
