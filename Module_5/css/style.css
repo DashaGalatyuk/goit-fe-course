@@ -77,11 +77,6 @@ li a{
 /*---Main---*/
 
 
-main{
-	margin: 0 auto;
-	padding: 0px;
-}
-
 /*--Section 1 - Slider--*/
 
 .slider{
@@ -98,6 +93,8 @@ main{
 	object-fit:cover;
 
 }
+/*--SLIDER BUTTON--*/
+
 button{
 	border: none;
 }
@@ -112,21 +109,7 @@ button{
 .slider-ctrl:hover{
 	opacity: 0.65; 
 }
-/*--OVERLAY FOR SLIDER--*/
-.overlay-slider{
-	position: absolute;
-	top:0;
-	left:0;
-	width: 1600px;
-    height: 600px;
-    background-color: #000000;
-    opacity: 1;
-}
-.overlay-slider:hover{
-	opacity: 0.65; 
-}
 
-/*--SLIDER BUTTON--*/
 
 .slider-ctrl-prev{
 	left:20%;
@@ -142,9 +125,6 @@ button{
 	margin: 0;
 	padding: 0;
 	list-style: none;
-}
-.slides-item{
-
 }
 .slides-descr{
 	position: absolute;
@@ -170,7 +150,9 @@ h2{
 	text-transform: uppercase;
 	margin-bottom: 80px;
 }
+
 /*--Section 2 - New Collection--*/
+
 h3{
 	font-family: 'Roboto', sans-serif;
 	font-size: 48px;
@@ -350,7 +332,9 @@ h3::after{
 	background-color: #000;
 	opacity: 1;
 }
-/*-- Footer --*/
+
+
+/*-- FOOTER --*/
 
 
 .footer_container{
