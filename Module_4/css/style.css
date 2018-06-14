@@ -178,6 +178,7 @@ span{
 }
 
 .article img{
+	height:261px;
     width :352px;
     object-fit: cover;
     margin: 0 auto;
