@@ -101,6 +101,7 @@ div{
 	display: inline-block;
 }
 .featured_section img{
+	height: 283px;
 	width:257px;
 	margin: 0px;
 	object-fit: cover;
@@ -108,8 +109,6 @@ div{
 	
 }
 .gallery-wrapper{
-	width:0% 97% 0%;
-	padding-left: 1.5%;
 	margin: 0 auto;
 }
 
@@ -177,7 +176,7 @@ span{
 	margin-right:0px;
 }
 
-.article img{
+.article>img{
 	height:261px;
     width :352px;
     object-fit: cover;
