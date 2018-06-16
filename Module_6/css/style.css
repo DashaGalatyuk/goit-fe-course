@@ -248,7 +248,7 @@ p{
   box-shadow: 18px 18px 0px 0px rgba(149,225,211,1);
   opacity: 0;
 }
-.square-icons{
+.wrapper-icons{
   position: absolute;
   display: block;
   width: 236px;
@@ -263,7 +263,7 @@ p{
   background-color:#fce38a;
   margin-left: -4px;
 }
-.square-icons>span{
+.wrapper-icons>span{
   position: relative;
   opacity: 0;
 }
@@ -279,7 +279,7 @@ p{
   opacity: 0.85;
   transition: 200ms;
 }
-.card:hover > .square-icons>.overlay-icon{
+.card:hover > .wrapper-icons>.overlay-icon{
   opacity: 1;
 }
 
