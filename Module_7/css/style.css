@@ -180,6 +180,7 @@ p{
 .contact-input-wrapper{
 	display:flex;
 	justify-content: center;
+	flex-wrap: wrap;
 	min-width: 940px;
 	padding-top: 76px;
 }
