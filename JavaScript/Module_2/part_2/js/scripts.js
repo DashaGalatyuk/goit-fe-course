@@ -8,8 +8,8 @@ let passwordTrue = false;
 do {
     userInput = prompt('Введите пароль ');
     attempts++;
-    for(let i=0;i<passwords.length;i++){
-        if (passwords[i] == userInput) {
+    for(let element of passwords){
+        if (element == userInput) {
           passwordTrue = true;
           break;
         }
