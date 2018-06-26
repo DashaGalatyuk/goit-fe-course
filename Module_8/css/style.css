@@ -201,23 +201,21 @@ h1{
 	background-color: #47f;
 }
 
-.icon-img{
-	width: 32px;
-	object-fit: cover;
-}
+
 
 .icon{
 	width: 35px;
 	height: 35px;
 	position: absolute;
-    display: block;
-    padding: 10px;
+    display:inline-block;
     top:90px;
-    right:20px;
+    right:35px;
     border: 3px #fff solid;
     border-radius: 50%;
 }
-
+.img-icon{
+	
+}
 
 
 .icon-TV{
