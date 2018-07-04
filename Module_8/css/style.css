@@ -167,7 +167,6 @@ h1{
     text-align: center;
 }
 .partner-avatar{
-	display: block;
 	margin: 0 auto;
 }
 
@@ -207,11 +206,16 @@ h1{
 	width: 35px;
 	height: 35px;
 	position: absolute;
-    display:inline-block;
+	display: flex;
+	justify-content: center;
     top:90px;
     right:35px;
     border: 3px #fff solid;
     border-radius: 50%;
+}
+.icon img {
+	width:25px;
+	height:15px;
 }
 
 
