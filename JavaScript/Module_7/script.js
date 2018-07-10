@@ -40,7 +40,6 @@ const posts = [
 function createPostCard(object) {
       const divContainer = document.createElement('div');
       divContainer.classList.add('post');
-
       const image = document.createElement('img');
       image.classList.add('post__image');
       image.setAttribute('src',object.img);
@@ -56,8 +55,8 @@ function createPostCard(object) {
 
       const a = document.createElement('a');
       a.classList.add('button');
-      image.setAttribute('href','#');
-      a.textContent = object.link;
+      image.setAttribute('href',object.link);
+      a.textContent = 'Read more';
 
       divContainer.append(image);
       divContainer.append(h2);
