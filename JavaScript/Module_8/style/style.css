@@ -1,0 +1,35 @@
+body{
+    background-color: #333;
+}
+.image-gallery{
+    transform: translateY(12%);
+    width:810px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+.fullview{
+    padding: 10px;
+}
+.main-image{
+    display: block;
+    margin: 0 auto;
+    padding: 3px;
+    box-shadow: 0px 2px 22px -4px rgba(0,0,0,0.92);
+}
+.containerImages{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    box-shadow: 0px 2px 22px -4px rgba(0,0,0,0.92);
+    padding: 0px;
+    margin:0px 0px 10px;
+}
+
+li{
+    display: inline-block;
+}
+
+.small-image{
+    padding:3px 3px 0px 3px;
+}
